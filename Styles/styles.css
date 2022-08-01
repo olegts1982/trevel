@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('☺'), url('../fonts/Gilroy-Medium.woff') format('woff'), url('../fonts/Gilroy-Medium.ttf') format('truetype'), url('../fonts/Gilroy-Medium.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: local('☺'), url('../fonts/Gilroy-ExtraBold.woff') format('woff'), url('../fonts/Gilroy-ExtraBold.ttf') format('truetype'), url('../fonts/Gilroy-ExtraBold.svg') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('☺'), url('../fonts/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy-Bold.ttf') format('truetype'), url('../fonts/Gilroy-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chronicle Display';
+    src: url('../fonts/Chronicle Display Semibold.eot');
+    src: local('☺'), url('../fonts/Chronicle Display Semibold.woff') format('woff'), url('../fonts/Chronicle Display Semibold.ttf') format('truetype'), url('../fonts/Chronicle Display Semibold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Chronicle Display';
+    src: url('../fonts/Chronicle Display Bold.eot');
+    src: local('☺'), url('../fonts/Chronicle Display Bold.woff') format('woff'), url('../fonts/Chronicle Display Bold.ttf') format('truetype'), url('../fonts/Chronicle Display Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    background: #354147;
+}
+main {
+    max-width: 1462px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 229px;
+}
+.container {
+    background: #354147;
+}
+.container .containerblock1 {
+    margin: 132px;
+}
+.container .containerblock1 .count {
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    opacity: 0.1;
+    font-weight: 700;
+    font-size: 240px;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: -122px;
+}
+.container .containerblock1 .linerow {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+}
+.container .containerblock1 .line, .container .containerblock1 .line2 {
+    color: #FBD784;
+    text-transform: uppercase;
+}
+.container .containerblock1 .line {
+    background-color: #FBD784;
+    width: 72px;
+    height: 2px;
+    margin-top: 20px;
+}
+.container .containerblock1 .line2 {
+    margin-left: 24px;
+}
+.container .containerblock1 h2 {
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+.container .containerblock1 p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.container .containerblock1 .more-narrow .more {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+}
+.container .containerblock1 .more-narrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container .containerblock1 .more-narrow .narrow {
+    width: 16px;
+    height: 24px;
+    margin-left: 16px;
+    margin-top: 7px;
+    
+}
+.container .containerblock1, .container .containerblock2 {
+    width: 50%;
+}
+.container .containerblock2 {
+    max-width: 566px;
+}
+
+
+
+footer {
+    max-width: 1462px;
+    margin-left: 229px;
+}
+.footer, .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.footer .block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.footer .block1 .copyright {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.footer .block2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer .block2 .footermenu {
+    width: 190px;
+    margin-left: 170px;
+}
+.footer .block2 .footermenu h4 {
+    color: #FBD784;
+    Font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.footer .block2 .footermenu ul {
+    padding: 0px;
+}
+.footer .block2 .footermenu ul li {
+    list-style: none;
+}
+.footer .block2 .footermenu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    Font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+
+}
+.footer .logo {
+    color: #FFFFFF;
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    line-height: 38px;
+
+}
+.footer p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 303px;
+    margin: 0%;
+}
+
+@media screen  and (min-width: 600px) {
+    body {
+        min-height: 100vh;
+    }
+    main {
+        flex-direction: row;
+        min-height: 100%;
+        flex: 1 1 auto;
+    }
+    }
