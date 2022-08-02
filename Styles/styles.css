@@ -35,19 +35,68 @@
 }
 body {
     background: #354147;
+    background-image: url(/practic/trevel/img/Group\ 18.png);
+    background-repeat: no-repeat;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    max-width: 1760px;
+    justify-content: space-between;
+    margin: 80px 64px;
+}
+header .links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+header .login {
+    font-family: 'Gilroy';
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 8px;
+    text-align: center;
+}
+/* ------------------------ */
+nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 1760px;
+    justify-content: space-between;
+    margin: 80px 64px;
+}
+
 main {
     max-width: 1462px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 229px;
+    margin-right: 229px;
+}
+section {
+    opacity: 0.8;
 }
 .container {
     background: #354147;
+    /* row-gap: 200px; */
 }
 .container .containerblock1 {
-    margin: 132px;
+    margin: 141px 114px 140px 150px;
+    /* display: flex;
+    flex-direction: column;
+    max-width: 632px; */
+
+}
+.section .reverse {
+    flex-direction: row-reverse;
 }
 .container .containerblock1 .count {
     color: #FFFFFF;
@@ -184,7 +233,7 @@ footer {
     line-height: 32px;
 
 }
-.footer .logo {
+.footer .logo, header .logo {
     color: #FFFFFF;
     font-family: 'Chronicle Display';
     font-size: 32px;
@@ -202,7 +251,7 @@ footer {
     margin: 0%;
 }
 
-@media screen  and (min-width: 600px) {
+/* @media screen  and (min-width: 600px) {
     body {
         min-height: 100vh;
     }
@@ -211,4 +260,4 @@ footer {
         min-height: 100%;
         flex: 1 1 auto;
     }
-    }
+    } */
