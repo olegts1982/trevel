@@ -316,13 +316,18 @@ footer {
     margin: 0%;
 }
 
-@media screen  and (min-width: 600px) {
+/* @media screen  and (min-width: 600px) {
     body {
         min-height: 100vh;
     }
     main {
-        flex-direction: row;
+        flex-direction: column;
         min-height: 100%;
         flex: 1 1 auto;
     }
+    footer {
+        flex-direction: column;
+        min-height: 100%;
+        flex: 1 1 auto;
     }
+    } */
