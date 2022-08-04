@@ -80,7 +80,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 24px;
+    max-width: 24px;
     height: 173px;
     margin-top: 72px;
 
@@ -95,7 +95,7 @@ nav {
     color: #FFFFFF;
 }
 .navi .explore {
-    width: 42px;
+    max-width: 42px;
     height: 208px;
     font-family: 'Gilroy';
     font-size: 18px;
@@ -187,7 +187,7 @@ section {
 }
 .container .containerblock1 .line, .navi .containerblock1 .line {
     background-color: #FBD784;
-    width: 72px;
+    max-width: 72px;
     height: 2px;
     margin-top: 20px;
 }
@@ -225,7 +225,7 @@ section {
     align-items: center;
 }
 .container .containerblock1 .more-narrow .narrow, .navi .containerblock1 .more-narrow .narrow {
-    width: 16px;
+    max-width: 16px;
     height: 24px;
     margin-left: 16px;
     margin-top: 7px;
@@ -237,12 +237,15 @@ section {
 .container .containerblock2 {
     max-width: 566px;
 }
+.container .containerblock2 img {
+    max-width: 100%;
+}
 
 
 
 footer {
     max-width: 1462px;
-    margin-left: 229px;
+    margin: 0 auto;
 }
 .footer, .container {
     display: flex;
@@ -271,7 +274,7 @@ footer {
     justify-content: flex-end;
 }
 .footer .block2 .footermenu {
-    width: 190px;
+    max-width: 190px;
     margin-left: 170px;
 }
 .footer .block2 .footermenu h4 {
@@ -305,29 +308,38 @@ footer {
     line-height: 38px;
 
 }
-.footer p {
+.footer .block1 p {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
-    width: 303px;
+    max-width: 303px;
     margin: 0%;
 }
-
+@media (max-width: 1200px) {
+    body{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    body {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        max-width: none;
+    }
+}
 /* @media screen  and (min-width: 600px) {
     body {
         min-height: 100vh;
-    }
-    main {
-        flex-direction: column;
-        min-height: 100%;
-        flex: 1 1 auto;
-    }
-    footer {
-        flex-direction: column;
-        min-height: 100%;
-        flex: 1 1 auto;
-    }
     } */
+    /* .container {
+        flex-direction: column;
+        min-height: 100%;
+        flex: 1 1 auto;
+    } */
+}
